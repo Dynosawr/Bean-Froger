@@ -1,0 +1,14 @@
+{
+	"name": "kaboom",
+	"scripts": {
+		"build": "esbuild --bundle code/main.js --outfile=/game.js",
+		"dev": "esbuild --bundle code/main.js --outfile=game.js --servedir=.",
+		"serve": "esbuild --servedir=."
+	},
+	"dependencies": {
+		"kaboom": "^3000.0.1"
+	},
+	"devDependencies": {
+		"esbuild": "^0.17.12"
+	}
+}
