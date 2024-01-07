@@ -6,9 +6,9 @@
 		"serve": "esbuild --servedir=."
 	},
 	"dependencies": {
-		"kaboom": "^3000.0.1"
+		"kaboom": "^3000.1.17"
 	},
 	"devDependencies": {
-		"esbuild": "^0.17.12"
+		"esbuild": "^0.17.19"
 	}
 }
