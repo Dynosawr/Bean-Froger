@@ -1,4 +1,4 @@
-import kaboom from "kaboom";
+import kaboom from "node_modules/kaboom/dist/kaboom.mjs";
 import "kaboom/global";
 import loadAssets from "./assets"
 import handleControls,{keyMap} from "./controls"
